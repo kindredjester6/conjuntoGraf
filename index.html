@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vite + vue</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+  </head>
+  <body>
+    <!-- <div id="app" name = "VueModule"></div> -->
+    <div id="card" style="display: flex;
+    flex-direction: row;
+    justify-content: center;">
+      <svg id="part" width=4000 height=2000>
+        <g transform="translate(600,600)">
+          <g class="rects"></g>
+          <g class="links"></g>
+          <g class="nodes"></g>
+        </g>
+      </svg>
+
+      <svg id="demo1" name="treemapBinary" width=1440 height=1000></svg>
+  
+  <svg id="demo2" width=700 height=700 transform="rotate(-90), translate(-200,0)">
+    <g  transform="translate(5,5)"></g>
+  </svg>
+
+  <svg id="demo3" width=1000 height=1000 transform="rotate(-90), translate(-500,0)">
+    <g transform="rotate(-90), translate(-220,10)">
+      <g class="rects"></g>
+      <g class="links"></g>
+      <g class="nodes"></g>
+    </g>
+  </svg>
+    </div>
+  <div id="card" style="display: flex;
+  flex-direction: row;
+  justify-content: center;">
+
+    <svg id="part2" width=4000 height=2000>
+      <g transform="translate(600,600)">
+        <g class="rects"></g>
+        <g class="links"></g>
+        <g class="nodes"></g>
+      </g>
+  </svg>
+
+  <svg id="demo4" name="treemapBinary" width=1440 height=1000>
+    
+  </svg>
+
+  <svg id="demo5" width=700 height=700 transform="rotate(-90), translate(-200,0)">
+    <g  transform="translate(5,5)"></g>
+  </svg>
+  <svg id="demo6" width=1000 height=1000 transform="rotate(-90), translate(-500,0)">
+    <g transform="rotate(-90), translate(-220,10)">
+      <g class="rects"></g>
+      <g class="links"></g>
+      <g class="nodes"></g>
+    </g>
+  </svg>
+  <!-- <svg width="760" height="140">
+      <circle/>
+    </svg> -->
+  </div>
+
+  <div id="card" style="display: flex;
+  flex-direction: row;
+  justify-content: center;">
+
+<svg id="part3" width=4000 height=2000>
+<g transform="translate(600,600)">
+<g class="rects"></g>
+<g class="links"></g>
+<g class="nodes"></g>
+</g>
+</svg>
+
+<svg id="demo7" name="treemapBinary" width=1440 height=1000>
+
+</svg>
+
+<svg id="demo8" width=700 height=700 transform="rotate(-90), translate(-200,0)">
+<g  transform="translate(5,5)"></g>
+</svg>
+<svg id="demo9" width=1000 height=1000 transform="rotate(-90), translate(-500,0)">
+  <g transform="rotate(-90), translate(-220,10)">
+    <g class="rects"></g>
+    <g class="links"></g>
+    <g class="nodes"></g>
+  </g>
+</svg>
+<!-- <svg width="760" height="140">
+<circle/>
+</svg> -->
+</div>
+  <div id="container"></div>
+  <svg class="mapa" id="mapa" width="3000" height="3000"></svg>
+
+    <script type="module" src="/src/util/vueModule.js"></script>
+    <script type="module" src="/src/util/distCr.js"></script>
+    <script type="module" src="/src/util/flareClass.js"></script>
+    <script type="module" src="/mapa.js"></script>
+  </body>
+</html>

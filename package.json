@@ -1,0 +1,32 @@
+{
+  "name": "tarea-3.2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/compiler-dom": "^3.4.26",
+    "@vue/compiler-ssr": "^3.4.26",
+    "@vue/reactivity": "^3.4.26",
+    "@vue/runtime-core": "^3.4.26",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "csv-parse": "^5.5.5",
+    "d3": "^7.9.0",
+    "esbuild": "^0.20.2",
+    "estree-walker": "^3.0.3",
+    "function-bind": "^1.1.2",
+    "has": "^1.0.4",
+    "magic-string": "^0.30.10",
+    "source-map": "^0.7.4",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
